@@ -1,16 +1,10 @@
-import {map} from './config/peta.js';
-import {onClosePopupClick,onDeleteMarkerClick,onSubmitMarkerClick,onMapClick,onMapPointerMove,disposePopover} from './controller/popup.js';
-import {onClick} from 'https://jscroot.github.io/element/croot.js';
-import {getAllCoordinates} from './controller/cog.js';
-
-onClick('popup-closer',onClosePopupClick);
-onClick('insertmarkerbutton',onSubmitMarkerClick);
-onClick('hapusbutton',onDeleteMarkerClick);
-onClick('hitungcogbutton',getAllCoordinates);
-
-map.on('click', onMapClick);
-map.on('pointermove', onMapPointerMove);
-map.on('movestart', disposePopover);
+const map = new ol.Map({
+    target: 'map',
+    view: new ol.View({
+        center: ol.proj.fromLonLat([107.65815950513098, -6.922567209251298]),
+        zoom: 12.6
+    })
+});
 
 const tileLayer = new ol.layer.Tile({
     source: new ol.source.OSM()
@@ -52,44 +46,78 @@ function addGeoJSONToMapAndTable(geoJSONUrl, map, table) {
                     const long = coordinates[0];
                     coordinateString = `${lat}, ${long}`;
 
-                    // Extract the icon URL from GeoJSON properties
                     const iconUrl = feature.properties.icon;
                     const iconUrl2 = feature.properties.icon2;
-                    const iconUrl3 = feature.properties.icon3;
-                    
 
-                    // Replace 'icon' with the actual property name
-                    // Add a marker to the map for Point features
                     const marker = new ol.Feature({
                         geometry: new ol.geom.Point(ol.proj.fromLonLat([long, lat]))
                     });
 
-                    if (iconUrl) {
+                    if (iconUrl || iconUrl2) {
                         const markerStyle = new ol.style.Style({
                             image: new ol.style.Icon({
-                                src: iconUrl,
-                                scale: 0.1 // Adjust the scale as needed
+                                src: iconUrl || iconUrl2,
+                                scale: 0.1
                             }),
-                            imagee: new ol.style.Icon({
-                                src: iconUrl2,
-                                scale: 0.1 // Adjust the scale as needed
-                            }),
-                            imageee: new ol.style.Icon({
-                                src: iconUrl3,
-                                scale: 0.1 // Adjust the scale as needed
-                            })
                         });
                         marker.setStyle(markerStyle);
                     }
 
                     vectorSource.addFeature(marker);
-                } else if (feature.geometry.type === "LineString" || feature.geometry.type === "Polygon") {
-                    // Create a feature for LineString and Polygon
-                    const geometry = new ol.geom[feature.geometry.type](coordinates);
+                } else if (feature.geometry.type === "Polygon") {
+                    const coordinates = feature.geometry.coordinates;
+                    const polygonCoordinates = coordinates.map(linearRingCoords => {
+                        return linearRingCoords.map(coordinate => {
+                            return ol.proj.fromLonLat(coordinate);
+                        });
+                    });
+
+                    const polygon = new ol.geom.Polygon(polygonCoordinates);
+
                     const featureGeom = new ol.Feature({
-                        geometry: geometry
+                        geometry: polygon
                     });
                     vectorSource.addFeature(featureGeom);
+                } else if (feature.geometry.type === "LineString") {
+                    const coordinates = feature.geometry.coordinates;
+                    const lineStringCoords = coordinates.map(coordinate => {
+                        return ol.proj.fromLonLat(coordinate);
+                    });
+
+                    if (feature.properties.curve) {
+                        const curve = feature.properties.curve;
+                        const curveLineStringCoords = [];
+
+                        for (let i = 0; i < lineStringCoords.length - 1; i++) {
+                            curveLineStringCoords.push(lineStringCoords[i]);
+
+                            for (let t = 0.1; t <= 0.9; t += 0.1) {
+                                const x = (1 - t) * (1 - t) * lineStringCoords[i][0] +
+                                          2 * (1 - t) * t * curve[i][0] +
+                                          t * t * lineStringCoords[i + 1][0];
+
+                                const y = (1 - t) * (1 - t) * lineStringCoords[i][1] +
+                                          2 * (1 - t) * t * curve[i][1] +
+                                          t * t * lineStringCoords[i + 1][1];
+
+                                curveLineStringCoords.push([x, y]);
+                            }
+                        }
+
+                        curveLineStringCoords.push(lineStringCoords[lineStringCoords.length - 1]);
+
+                        const curveLineString = new ol.geom.LineString(curveLineStringCoords);
+                        const featureGeom = new ol.Feature({
+                            geometry: curveLineString
+                        });
+                        vectorSource.addFeature(featureGeom);
+                    } else {
+                        const lineString = new ol.geom.LineString(lineStringCoords);
+                        const featureGeom = new ol.Feature({
+                            geometry: lineString
+                        });
+                        vectorSource.addFeature(featureGeom);
+                    }
                 }
 
                 coordinates.forEach(coordinate => {

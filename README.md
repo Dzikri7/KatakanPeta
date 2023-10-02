@@ -1,1 +1,3 @@
-# petapedia.github.io
+# GIS3C
+
+#BIASAKAN COMMIT YANG RAPIH DAN JANGAN ASAL
