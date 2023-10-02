@@ -1,747 +1,719 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Niger"
-        },
-        "geometry": {
-          "coordinates": [
-            9.396059370344489,
-            17.411107821972024
-          ],
-          "type": "Point"
-        },
-        "id": 0
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BDO - Husein Sastranegara International Airport"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Nigeria"
-        },
-        "geometry": {
-          "coordinates": [
-            8.058733028833473,
-            9.645518591999434
-          ],
-          "type": "Point"
-        },
-        "id": 1
+      "geometry": {
+        "coordinates": [
+          107.57742944206092,
+          -6.900507809649596
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Egypt"
-        },
-        "geometry": {
-          "coordinates": [
-            29.841984452832094,
-            26.28787778230968
-          ],
-          "type": "Point"
-        },
-        "id": 2
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SMAN 9 Bandung"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Iraq"
-        },
-        "geometry": {
-          "coordinates": [
-            43.17826690760731,
-            32.967880368092565
-          ],
-          "type": "Point"
-        },
-        "id": 3
+      "geometry": {
+        "coordinates": [
+          107.5860554719867,
+          -6.901241665737857
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Turkey"
-        },
-        "geometry": {
-          "coordinates": [
-            34.98123392966892,
-            39.00543668366939
-          ],
-          "type": "Point"
-        },
-        "id": 4
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SMP Angkasa"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Iran"
-        },
-        "geometry": {
-          "coordinates": [
-            54.2401723820598,
-            32.55115541265984
-          ],
-          "type": "Point"
-        },
-        "id": 5
+      "geometry": {
+        "coordinates": [
+          107.57955312480811,
+          -6.895762611403811
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Russia"
-        },
-        "geometry": {
-          "coordinates": [
-            97.0551964215876,
-            62.19123849438151
-          ],
-          "type": "Point"
-        },
-        "id": 6
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vio Hotel Pasteur"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Norway"
-        },
-        "geometry": {
-          "coordinates": [
-            8.16152144896634,
-            60.8308896563849
-          ],
-          "type": "Point"
-        },
-        "id": 7
+      "geometry": {
+        "coordinates": [
+          107.5821522589892,
+          -6.89219786498272
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Iceland"
-        },
-        "geometry": {
-          "coordinates": [
-            -19.558846704590536,
-            64.58667610121151
-          ],
-          "type": "Point"
-        },
-        "id": 8
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Universitas Kristen Maranatha"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Greenland"
-        },
-        "geometry": {
-          "coordinates": [
-            -41.18827090006346,
-            74.67303208743505
-          ],
-          "type": "Point"
-        },
-        "id": 9
+      "geometry": {
+        "coordinates": [
+          107.58057800420318,
+          -6.886378546249347
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Canada"
-        },
-        "geometry": {
-          "coordinates": [
-            -106.08670055509515,
-            55.56699841181489
-          ],
-          "type": "Point"
-        },
-        "id": 10
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bandung International School"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "USA"
-        },
-        "geometry": {
-          "coordinates": [
-            -97.16811420048455,
-            39.24831030994642
-          ],
-          "type": "Point"
-        },
-        "id": 11
+      "geometry": {
+        "coordinates": [
+          107.5807933623093,
+          -6.8845116304414375
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Brazil"
-        },
-        "geometry": {
-          "coordinates": [
-            -51.42406031535387,
-            -9.611818334307003
-          ],
-          "type": "Point"
-        },
-        "id": 12
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bandung Independent School"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Argentina"
-        },
-        "geometry": {
-          "coordinates": [
-            -64.65622427407109,
-            -36.307233455019166
-          ],
-          "type": "Point"
-        },
-        "id": 13
+      "geometry": {
+        "coordinates": [
+          107.58130668699124,
+          -6.884828640686678
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Portugal"
-        },
-        "geometry": {
-          "coordinates": [
-            -8.61337048257522,
-            39.582321686846825
-          ],
-          "type": "Point"
-        },
-        "id": 14
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SDN Sukawarna"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Madrid"
-        },
-        "geometry": {
-          "coordinates": [
-            -3.035258867866503,
-            40.28445342011159
-          ],
-          "type": "Point"
-        },
-        "id": 15
+      "geometry": {
+        "coordinates": [
+          107.57855056420709,
+          -6.882120693348128
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Spain"
-        },
-        "geometry": {
-          "coordinates": [
-            -4.119894971340557,
-            41.2704503666086
-          ],
-          "type": "Point"
-        },
-        "id": 16
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pemakaman Cibogo"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "France"
-        },
-        "geometry": {
-          "coordinates": [
-            2.558748688432132,
-            47.84437890691001
-          ],
-          "type": "Point"
-        },
-        "id": 17
+      "geometry": {
+        "coordinates": [
+          107.57800135067606,
+          -6.8821201546834345
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Paris"
-        },
-        "geometry": {
-          "coordinates": [
-            2.7476300292316864,
-            48.99066855474223
-          ],
-          "type": "Point"
-        },
-        "id": 18
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SMPN 26 Bandung"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "London"
-        },
-        "geometry": {
-          "coordinates": [
-            -0.7095083696168274,
-            51.38005739592546
-          ],
-          "type": "Point"
-        },
-        "id": 19
+      "geometry": {
+        "coordinates": [
+          107.57723338420124,
+          -6.882661883163422
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Isle of Man TT"
-        },
-        "geometry": {
-          "coordinates": [
-            -4.539354154122435,
-            54.22857359118035
-          ],
-          "type": "Point"
-        },
-        "id": 20
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SDPN Setiabudi"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Belgium"
-        },
-        "geometry": {
-          "coordinates": [
-            4.592712806758556,
-            50.43121155800711
-          ],
-          "type": "Point"
-        },
-        "id": 21
+      "geometry": {
+        "coordinates": [
+          107.57909083416337,
+          -6.87990569461445
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Luxembourg"
-        },
-        "geometry": {
-          "coordinates": [
-            6.07344429635026,
-            49.77125945538529
-          ],
-          "type": "Point"
-        },
-        "id": 22
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SMAN 15"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Switzerland"
-        },
-        "geometry": {
-          "coordinates": [
-            8.2152738911212,
-            46.79205638700071
-          ],
-          "type": "Point"
-        },
-        "id": 23
+      "geometry": {
+        "coordinates": [
+          107.573981308859,
+          -6.878040230663402
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Milan"
-        },
-        "geometry": {
-          "coordinates": [
-            9.170901676643751,
-            45.50713856905563
-          ],
-          "type": "Point"
-        },
-        "id": 24
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Poltekpos"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Italy"
-        },
-        "geometry": {
-          "coordinates": [
-            12.65713018983854,
-            42.50187721129021
-          ],
-          "type": "Point"
-        },
-        "id": 25
+      "geometry": {
+        "coordinates": [
+          107.57595535589024,
+          -6.873330721684894
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Rome"
-        },
-        "geometry": {
-          "coordinates": [
-            12.308828637878179,
-            41.834314448653885
-          ],
-          "type": "Point"
-        },
-        "id": 26
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Politeknik Negeri Bandung"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Germany"
-        },
-        "geometry": {
-          "coordinates": [
-            9.993882602750716,
-            51.13759960493337
-          ],
-          "type": "Point"
-        },
-        "id": 27
+      "geometry": {
+        "coordinates": [
+          107.57285525670085,
+          -6.871568711008862
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Berlin"
-        },
-        "geometry": {
-          "coordinates": [
-            12.911128852922872,
-            52.63438723270647
-          ],
-          "type": "Point"
-        },
-        "id": 28
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SDN Jeungjing Rigil Tengah"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Denmark"
-        },
-        "geometry": {
-          "coordinates": [
-            9.824631100532116,
-            56.0168311357134
-          ],
-          "type": "Point"
-        },
-        "id": 29
+      "geometry": {
+        "coordinates": [
+          107.5691783664202,
+          -6.869938451923332
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Indonesia"
-        },
-        "geometry": {
-          "coordinates": [
-            117.3765397273404,
-            -2.304714499633718
-          ],
-          "type": "Point"
-        },
-        "id": 30
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rumah Bersalin Muhammadiyah"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Bandung"
-        },
-        "geometry": {
-          "coordinates": [
-            107.60485367363299,
-            -6.904181953549838
-          ],
-          "type": "Point"
-        },
-        "id": 31
+      "geometry": {
+        "coordinates": [
+          107.57668015611034,
+          -6.877528353557196
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Yogyakarta"
-        },
-        "geometry": {
-          "coordinates": [
-            110.36116431309006,
-            -7.785098497681233
-          ],
-          "type": "Point"
-        },
-        "id": 33
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SDN 5 Sarijadi"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Kebumen"
-        },
-        "geometry": {
-          "coordinates": [
-            109.6476892534846,
-            -7.66883683475055
-          ],
-          "type": "Point"
-        },
-        "id": 34
+      "geometry": {
+        "coordinates": [
+          107.58032031133888,
+          -6.878124785406527
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Semarang"
-        },
-        "geometry": {
-          "coordinates": [
-            110.41824231785938,
-            -6.98635362659212
-          ],
-          "type": "Point"
-        },
-        "id": 35
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al Murabbi Park"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Surakarta"
-        },
-        "geometry": {
-          "coordinates": [
-            110.82287323023542,
-            -7.559489968804726
-          ],
-          "type": "Point"
-        },
-        "id": 36
+      "geometry": {
+        "coordinates": [
+          107.58345691074607,
+          -6.879831357846669
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Cikotok"
-        },
-        "geometry": {
-          "coordinates": [
-            106.31084052969214,
-            -6.849167933825001
-          ],
-          "type": "Point"
-        },
-        "id": 37
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Setrasari Mall"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Jekardah"
-        },
-        "geometry": {
-          "coordinates": [
-            106.83060277748018,
-            -6.179190704895802
-          ],
-          "type": "Point"
-        },
-        "id": 37
+      "geometry": {
+        "coordinates": [
+          107.58299139886725,
+          -6.880718562519576
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Bekasi"
-        },
-        "geometry": {
-          "coordinates": [
-            106.99268774644139,
-            -6.235281901213469
-          ],
-          "type": "Point"
-        },
-        "id": 38
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Griya"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Depok"
-        },
-        "geometry": {
-          "coordinates": [
-            106.81521496397204,
-            -6.410655412430614
-          ],
-          "type": "Point"
-        },
-        "id": 39
+      "geometry": {
+        "coordinates": [
+          107.58345112772116,
+          -6.881445449500475
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Karawang"
-        },
-        "geometry": {
-          "coordinates": [
-            107.30211950960711,
-            -6.306788371663529
-          ],
-          "type": "Point"
-        },
-        "id": 40
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ASOKA Inn"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Palembang"
-        },
-        "geometry": {
-          "coordinates": [
-            104.75545370161552,
-            -2.983177172088901
-          ],
-          "type": "Point"
-        },
-        "id": 41
+      "geometry": {
+        "coordinates": [
+          107.5808459993637,
+          -6.880710110110044
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Pekanbaru"
-        },
-        "geometry": {
-          "coordinates": [
-            101.44659727437431,
-            0.5354288753996741
-          ],
-          "type": "Point"
-        },
-        "id": 42
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Universitas Pasundan Kampus IV"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Medan"
-        },
-        "geometry": {
-          "coordinates": [
-            98.65968185449509,
-            3.599294024745845
-          ],
-          "type": "Point"
-        },
-        "id": 43
+      "geometry": {
+        "coordinates": [
+          107.59266683119813,
+          -6.866319542685346
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Kuala Lumpur"
-        },
-        "geometry": {
-          "coordinates": [
-            101.70064615377606,
-            3.1462848031051323
-          ],
-          "type": "Point"
-        },
-        "id": 44
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Universitas Pendidikan Indonesia"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Singapore"
-        },
-        "geometry": {
-          "coordinates": [
-            103.80527333393042,
-            1.3503080311723608
-          ],
-          "type": "Point"
-        },
-        "id": 45
+      "geometry": {
+        "coordinates": [
+          107.59182638081558,
+          -6.861058627511596
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Kalimantan"
-        },
-        "geometry": {
-          "coordinates": [
-            114.91263494750808,
-            0.46704033466980377
-          ],
-          "type": "Point"
-        },
-        "id": 46
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SMPN 29 Bandung"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Sulawesi"
-        },
-        "geometry": {
-          "coordinates": [
-            121.08570989357656,
-            -2.0616023475217986
-          ],
-          "type": "Point"
-        },
-        "id": 47
+      "geometry": {
+        "coordinates": [
+          107.58642787253524,
+          -6.860710082815558
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Beijing"
-        },
-        "geometry": {
-          "coordinates": [
-            116.41585766729872,
-            39.94987205882947
-          ],
-          "type": "Point"
-        },
-        "id": 48
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SDN 138 Gegerkalong Girang Kota Bandung"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Busan"
-        },
-        "geometry": {
-          "coordinates": [
-            129.0693961335528,
-            35.1960359131981
-          ],
-          "type": "Point"
-        },
-        "id": 49
+      "geometry": {
+        "coordinates": [
+          107.58653738154254,
+          -6.860947102885575
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Mexico"
-        },
-        "geometry": {
-          "coordinates": [
-            -102.53897214498075,
-            23.943206981483073
-          ],
-          "type": "Point"
-        },
-        "id": 50
+      "id": 24
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kumon Pondok Hijau"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Colombia"
-        },
-        "geometry": {
-          "coordinates": [
-            -73.18618581100353,
-            3.057274619116299
-          ],
-          "type": "Point"
-        },
-        "id": 51
+      "geometry": {
+        "coordinates": [
+          107.58266998947846,
+          -6.861066281458051
+        ],
+        "type": "Point"
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "name": "Ecuador"
-        },
-        "geometry": {
-          "coordinates": [
-            -78.46654224430438,
-            -1.1443713349872837
-          ],
-          "type": "Point"
-        },
-        "id": 52
-      }
-    ]
-  }
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coffee Lab 5758"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58258895282432,
+          -6.861288079938291
+        ],
+        "type": "Point"
+      },
+      "id": 26
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Puskesmas Sukasari"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58232125849526,
+          -6.868210508695697
+        ],
+        "type": "Point"
+      },
+      "id": 27
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SDN Gegerkalong 2 KPAD"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58215617220168,
+          -6.866624647248756
+        ],
+        "type": "Point"
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SDN KPAD Gegerkalong"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58189738918367,
+          -6.866577468316379
+        ],
+        "type": "Point"
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Museum NuArt Sculture Park"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5726350418957,
+          -6.877158301514569
+        ],
+        "type": "Point"
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cibarunai"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57285901970909,
+          -6.879308474585301
+        ],
+        "type": "Point"
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SD Sarijadi III"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5749625995906,
+          -6.880703423133809
+        ],
+        "type": "Point"
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klinik Global Medika"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5748207633032,
+          -6.881846498475184
+        ],
+        "type": "Point"
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lapangan RW 11"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57576905757611,
+          -6.882165319096302
+        ],
+        "type": "Point"
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "SD Sarijadi Selatan 1 dan 2"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57323361827747,
+          -6.883643857314851
+        ],
+        "type": "Point"
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasar Sarijadi"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57498285542789,
+          -6.883951409401092
+        ],
+        "type": "Point"
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rumah Sakit Gigi dan Mulut Maranatha"
+      },
+      "geometry": {
+        "coordinates": [
+          107.581228438555,
+          -6.886832914400287
+        ],
+        "type": "Point"
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bandung Trade Center"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58492086093122,
+          -6.893345432385601
+        ],
+        "type": "Point"
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pertamina Gas Station"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5860536774565,
+          -6.893580710093261
+        ],
+        "type": "Point"
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shell Gas Station"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5872427079218,
+          -6.894537784613746
+        ],
+        "type": "Point"
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ampera"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58803902116017,
+          -6.895130496424628
+        ],
+        "type": "Point"
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cicle K"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58799360215937,
+          -6.895004861695355
+        ],
+        "type": "Point"
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Simpang Raya"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58767129452781,
+          -6.8949472188418355
+        ],
+        "type": "Point"
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel Nyland"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5873058410557,
+          -6.894934071059097
+        ],
+        "type": "Point"
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RS Hermina Pasteur"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58872660216633,
+          -6.896003520513958
+        ],
+        "type": "Point"
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saung Kabayan"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58936884751967,
+          -6.895854119947472
+        ],
+        "type": "Point"
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aston Primera Pasteur"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59065858647705,
+          -6.8962545381504015
+        ],
+        "type": "Point"
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Holiday Inn Bandung Pasteur"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59074617398585,
+          -6.8958573704898924
+        ],
+        "type": "Point"
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DayTrans Dr. Djunjunan"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59173325527865,
+          -6.897208462592602
+        ],
+        "type": "Point"
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Museum Barli"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58753425759812,
+          -6.878386053056943
+        ],
+        "type": "Point"
+      },
+      "id": 50
+    }
+  ]
+}
