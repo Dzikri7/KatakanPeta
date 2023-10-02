@@ -1,8 +1,8 @@
 const map = new ol.Map({
     target: 'map',
     view: new ol.View({
-        center: ol.proj.fromLonLat([107.65815950513098, -6.922567209251298]),
-        zoom: 12.6
+        center: ol.proj.fromLonLat([107.58032031133888, -6.878124785406527]),
+        zoom: 14.6
     })
 });
 
@@ -137,6 +137,6 @@ function addGeoJSONToMapAndTable(geoJSONUrl, map, table) {
 }
 
 // Call the function for each GeoJSON URL
-addGeoJSONToMapAndTable('https://raw.githubusercontent.com/Dzikri7/GIS/main/point.json', map, document.querySelector('table'));
-addGeoJSONToMapAndTable('https://raw.githubusercontent.com/Dzikri7/GIS/main/polygon.json', map, document.querySelector('table'));
-addGeoJSONToMapAndTable('https://raw.githubusercontent.com/Dzikri7/GIS/main/poliline.json', map, document.querySelector('table'));
+addGeoJSONToMapAndTable('https://raw.githubusercontent.com/Dzikri7/KatakanPeta/main/json/point.json', map, document.querySelector('table'));
+addGeoJSONToMapAndTable('https://raw.githubusercontent.com/Dzikri7/KatakanPeta/main/json/poliline.json', map, document.querySelector('table'));
+addGeoJSONToMapAndTable('https://raw.githubusercontent.com/Dzikri7/KatakanPeta/main/json/polygon.json', map, document.querySelector('table'));
