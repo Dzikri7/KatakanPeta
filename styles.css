@@ -12,6 +12,10 @@ h1 {
     text-justify: auto;
 }
 
+h2 {
+    text-align: center;
+}
+
 #map {
     margin: 20px auto;
     border: 1px solid #ddd;
