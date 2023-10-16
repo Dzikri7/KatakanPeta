@@ -1,39 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenLayers</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/openlayers@4.6.5/dist/ol.css" />
-
-    <!-- Additional CSS -->
-    <link rel="stylesheet" href="styles.css" />
-</head>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  </head>
 <body>
-    <div>
-        <h1>DATA GEO OPENLAYERS</h1>
-        <h2>1214062 - Dzikri Izzatul Haq</h2>
-        <div id="map" style="height: 500px;"></div>
+<style>
+  .dzikriol{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border: transparent;
+    width: 200px;
+    background-color: rgb(126, 185, 236);
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+  }
+  .dzikriol:hover{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border: transparent;
+    width: 200px;
+    background-color: rgb(255, 138, 20);
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+  }
+  .dzikriol a{
+    color: white;
+    text-decoration: none;
+  }
+</style>
 
-        <!-- Add a table to display GeoJSON data -->
-        <table border="1">
-            <tr>
-                <th>No</th>
-                <th>Nama Tempat</th>
-                <th>Jalan</th>
-                <th>Koordinat Tempat</th>
-                <th>Tipe Data Json</th>
-            </tr>
-            <tbody id="geojson-table">
-                <!-- Rows for GeoJSON data will be added here -->
-            </tbody>
-        </table>
-        <!-- Include OpenLayers via CDN -->
-        <script src="https://cdn.jsdelivr.net/npm/openlayers@4.6.5/dist/ol.js"></script>
+<div class="dzikriol">
+  <a href="./openlayers/index.html">Tugas Dzikri - OpenLayer</a>
+</div>
 
-        <!-- Your JavaScript code here -->
-        <script type="module" src="script.js"></script>
+<table class="table">
+  <tbody id="lokasi">
+    <tr>
+      <th>Type</th>
+      <th>Nama</th>
+      <th>Kordinat</th>
+    </tr>
+  </tbody>
+</table>
 
-    </div>
+<script type="module" src="./get.js"></script>
+
 </body>
 </html>
