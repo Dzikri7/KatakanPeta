@@ -137,6 +137,6 @@ function addGeoJSONToMapAndTable(geoJSONUrl, map, table) {
 }
 
 // Call the function for each GeoJSON URL
-addGeoJSONToMapAndTable('https://raw.githubusercontent.com/Dzikri7/KatakanPeta/main/json/point.json', map, document.querySelector('table'));
-addGeoJSONToMapAndTable('https://raw.githubusercontent.com/Dzikri7/KatakanPeta/main/json/poliline.json', map, document.querySelector('table'));
-addGeoJSONToMapAndTable('https://raw.githubusercontent.com/Dzikri7/KatakanPeta/main/json/polygon.json', map, document.querySelector('table'));
+addGeoJSONToMapAndTable('https://raw.githubusercontent.com/Dzikri7/KatakanPeta/main/openlayers/json/point.json', map, document.querySelector('table'));
+addGeoJSONToMapAndTable('https://raw.githubusercontent.com/Dzikri7/KatakanPeta/main/openlayers/json/poliline.json', map, document.querySelector('table'));
+addGeoJSONToMapAndTable('https://raw.githubusercontent.com/Dzikri7/KatakanPeta/main/openlayers/json/polygon.json', map, document.querySelector('table'));

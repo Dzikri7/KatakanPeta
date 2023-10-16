@@ -21,6 +21,7 @@
           color: white;
           border-radius: 30px;
           text-align: center;
+          margin-left: 740px;
         }
         .dzikriol:hover{
             padding: 10px;
@@ -33,10 +34,19 @@
             border-radius: 30px;
             text-align: center;
             box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+            margin-left: 740px;
         }
         .dzikriol a{
           color: white;
           text-decoration: none;
+          text-align: center;
+        }
+
+        button{
+          margin-left: 780px;
+        }
+        #hasil{
+          margin-left: 750px;
         }
       </style>
 
@@ -46,6 +56,8 @@
     <div>
         <h1>DATA GEO OPENLAYERS</h1>
         <h2>1214062 - Dzikri Izzatul Haq</h2>
+        <button id="ambilData">Ambil Data dari API</button>
+        <div id="hasil"></div>
         <div id="map" style="height: 500px;"></div>
 
         <!-- Add a table to display GeoJSON data -->
